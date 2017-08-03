@@ -15,6 +15,7 @@
 		4213F0FD1F32E35200D8B41E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4213F0FB1F32E35200D8B41E /* LaunchScreen.storyboard */; };
 		4213F1081F32E35200D8B41E /* SoundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4213F1071F32E35200D8B41E /* SoundboardTests.swift */; };
 		4213F1131F32E35200D8B41E /* SoundboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4213F1121F32E35200D8B41E /* SoundboardUITests.swift */; };
+		42D2D1DA1F33BDCB000B544A /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D2D1D91F33BDCB000B544A /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4213F10E1F32E35200D8B41E /* SoundboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4213F1121F32E35200D8B41E /* SoundboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardUITests.swift; sourceTree = "<group>"; };
 		4213F1141F32E35200D8B41E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D2D1D91F33BDCB000B544A /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				4213F0EF1F32E35200D8B41E /* AppDelegate.swift */,
 				4213F0F11F32E35200D8B41E /* ViewController.swift */,
 				4213F0F31F32E35200D8B41E /* Main.storyboard */,
+				42D2D1D91F33BDCB000B544A /* SoundViewController.swift */,
 				4213F0F91F32E35200D8B41E /* Assets.xcassets */,
 				4213F0FB1F32E35200D8B41E /* LaunchScreen.storyboard */,
 				4213F0FE1F32E35200D8B41E /* Info.plist */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D2D1DA1F33BDCB000B544A /* SoundViewController.swift in Sources */,
 				4213F0F21F32E35200D8B41E /* ViewController.swift in Sources */,
 				4213F0F81F32E35200D8B41E /* Soundboard.xcdatamodeld in Sources */,
 				4213F0F01F32E35200D8B41E /* AppDelegate.swift in Sources */,
@@ -423,6 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 255ET92M8M;
 				INFOPLIST_FILE = Soundboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcarras.Soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 255ET92M8M;
 				INFOPLIST_FILE = Soundboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcarras.Soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,6 +526,7 @@
 				4213F1191F32E35200D8B41E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4213F11A1F32E35200D8B41E /* Build configuration list for PBXNativeTarget "SoundboardTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +535,7 @@
 				4213F11C1F32E35200D8B41E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4213F11D1F32E35200D8B41E /* Build configuration list for PBXNativeTarget "SoundboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +544,7 @@
 				4213F11F1F32E35200D8B41E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
